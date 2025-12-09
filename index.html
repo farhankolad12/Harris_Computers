@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Harris Computers Assignment</title>
+    <link rel="stylesheet" href="./styles.css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+  <body>
+    <header>
+      <div
+        class="flex justify-between items-center bg-[#F5F5F5] md:px-28 text-[#666666] px-10 py-4"
+      >
+        <span>Welcome to Worldwide Megamart!</span>
+        <div class="flex gap-5">
+          <div class="flex items-center gap-2 border-r pe-5">
+            <img src="./public/location.svg" alt="Location" />
+            <span>Deliver to <b>423651</b></span>
+          </div>
+          <div class="flex items-center gap-2 border-r pe-5">
+            <img src="./public/truck.svg" alt="Truck" />
+            <span>Track your order</span>
+          </div>
+          <div class="flex items-center gap-2 border-r pe-5">
+            <img src="./public/offers.svg" alt="Offers" />
+            <span>All Offers</span>
+          </div>
+        </div>
+      </div>
+      <div class="border-b">
+        <div class="md:px-28 px-10 pb-8 flex justify-between items-center mt-8">
+          <div class="md:w-[30%] w-full flex gap-4 items-center">
+            <div class="p-3 bg-[#F5F5F5] rounded">
+              <img src="./public/hamburger.svg" alt="Lines" />
+            </div>
+            <h1 class="font-bold text-[#008ECC] text-2xl">Megamart</h1>
+          </div>
+          <div class="md:w-[70%] w-full flex gap-4">
+            <div class="relative w-[79%] p-4 bg-[#F5F5F5] rounded-xl">
+              <img
+                src="./public/search.svg"
+                alt="Search"
+                class="absolute left-5 top-5"
+              />
+              <input
+                type="text"
+                class="w-full bg-[#F5F5F5] ps-8"
+                placeholder="Search essentials, groceries and more..."
+              />
+              <img
+                src="./public/list.svg"
+                alt=""
+                class="absolute right-5 top-4"
+              />
+            </div>
+            <div class="flex gap-4">
+              <div class="flex gap-1 items-center border-r pe-4">
+                <img src="./public/profile.svg" alt="Search" />
+                <b class="">Sign In</b>
+              </div>
+              <div class="flex gap-1 items-center">
+                <img src="./public/cart.svg" alt="Search" />
+                <b>Cart</b>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        class="md:px-28 px-10 flex flex-wrap gap-3 header-categories mt-5 border-b pb-5"
+      >
+        <!-- Header Categories-->
+      </div>
+    </header>
+    <main>
+      <div class="md:px-28 px-10 relative h-full">
+        <div
+          class="rounded-full cursor-pointer flex justify-center items-center h-[80px] w-[80px] absolute left-[4rem] z-50 top-[36%] bg-[#F5F5F5]"
+        >
+          <img src="./public/chevron-left.svg" alt="" />
+        </div>
+        <div
+          class="bg-[#212844] mt-8 rounded-xl flex justify-around py-10 relative"
+        >
+          <div class="flex flex-col gap-3 text-[#fff]">
+            <h3 class="text-4xl">Best Deal Online on smart watches.</h3>
+            <h1 class="text-6xl">SMART WEARABLE.</h1>
+            <h3 class="text-4xl">UP to 80% OFF</h3>
+            <div class="mt-5">Dot</div>
+          </div>
+          <img
+            src="./public/images/header-watch.png"
+            alt="Watch"
+            class="w-[250px] h-[250px] object-cover z-50"
+          />
+          <img
+            src="./public/images/ecllipse_header.jpg"
+            alt="Circle"
+            class="absolute right-0 top-0 bottom-0"
+            style="mix-blend-mode: multiply"
+          />
+        </div>
+        <div
+          class="rounded-full cursor-pointer flex justify-center items-center h-[80px] w-[80px] absolute right-[4rem] top-[36%] z-50 bottom-0 bg-[#F5F5F5]"
+        >
+          <img src="./public/chevron-right.svg" alt="" />
+        </div>
+      </div>
+      <section class="md:px-28 px-10 my-24">
+        <div class="flex justify-between border-b items-center">
+          <h3 class="border-b-4 border-[#008ECC] text-2xl pb-4">
+            Grab the best deal on <b class="text-[#008ECC]">Smartphones</b>
+          </h3>
+          <button class="cursor-pointer flex gap-2">
+            <span>View All</span> <img src="./public/chevron-right.svg" />
+          </button>
+        </div>
+        <div class="smartphones-grid mt-6 grid md:grid-cols-5 gap-3">
+          <!-- Best Smartphones -->
+        </div>
+      </section>
+      <section class="md:px-28 px-10 my-24">
+        <div class="flex justify-between border-b items-center">
+          <h3 class="border-b-4 border-[#008ECC] text-2xl pb-4">
+            Shop From <b class="text-[#008ECC]">Top Categories</b>
+          </h3>
+          <button class="cursor-pointer flex gap-2">
+            <span>View All</span> <img src="./public/chevron-right.svg" />
+          </button>
+        </div>
+        <div class="top-categories-grid mt-6 grid md:grid-cols-7 gap-3">
+          <!-- Top Categories -->
+        </div>
+      </section>
+      <section class="md:px-28 px-10 my-24">
+        <div class="flex justify-between border-b items-center">
+          <h3 class="border-b-4 border-[#008ECC] text-2xl pb-4">
+            Top <b class="text-[#008ECC]">Electronic Brands</b>
+          </h3>
+          <button class="cursor-pointer flex gap-2">
+            <span>View All</span> <img src="./public/chevron-right.svg" />
+          </button>
+        </div>
+        <div class="electronic-brands-grid mt-6 grid md:grid-cols-3 gap-3">
+          <!-- Top Electronics -->
+        </div>
+      </section>
+      <section class="md:px-28 px-10 my-24">
+        <div class="flex justify-between border-b items-center">
+          <h3 class="border-b-4 border-[#008ECC] text-2xl pb-4">
+            Daily <b class="text-[#008ECC]">Essentials</b>
+          </h3>
+          <button class="cursor-pointer flex gap-2">
+            <span>View All</span> <img src="./public/chevron-right.svg" />
+          </button>
+        </div>
+        <div class="daily-essentials-grid mt-6 grid md:grid-cols-6 gap-3">
+          <!-- Top Categories -->
+        </div>
+      </section>
+    </main>
+    <footer class="bg-[#008ECC] text-[#fff] md:px-28 px-10 pt-16 pb-10">
+      <div class="flex gap-24 pb-20 border-b">
+        <div class="flex flex-col gap-2">
+          <h3 class="text-5xl font-bold">Megamart</h3>
+          <h3 class="font-bold mt-3">Contact Us</h3>
+          <div class="flex gap-2">
+            <img src="./public/whatsapp.svg" />
+            <div class="flex flex-col">
+              <span>whatsapp</span>
+              <span>+1 202-918-2132</span>
+            </div>
+          </div>
+          <div class="flex gap-2">
+            <img src="./public/telephone.svg" />
+            <div class="flex flex-col">
+              <span>Call us</span>
+              <span>+1 202-918-2132</span>
+            </div>
+          </div>
+          <h3 class="font-bold mt-4">Download App</h3>
+          <div class="flex gap-3">
+            <img
+              src="./public/images/apple-download.png"
+              alt="Apple Download"
+            />
+            <img
+              src="./public/images/android-download.png"
+              alt="Android Download"
+            />
+          </div>
+        </div>
+        <div>
+          <div class="border-b-4 pb-4">
+            <h3 class="text-2xl font-bold">Most Popular Categories</h3>
+          </div>
+          <ul class="footer-categories mt-4 list-disc flex flex-col gap-4">
+            <!-- Footer Categories -->
+          </ul>
+        </div>
+        <div>
+          <div class="border-b-4 pb-4">
+            <h3 class="text-2xl font-bold">Customer Services</h3>
+          </div>
+          <ul class="footer-services mt-4 list-disc flex flex-col gap-4 ms-5">
+            <!-- Footer Customer Services -->
+          </ul>
+        </div>
+      </div>
+      <h3 class="text-center mt-10">
+        © 2022 All rights reserved. Reliance Retail Ltd.
+      </h3>
+    </footer>
+    <script src="./app.js"></script>
+  </body>
+</html>
